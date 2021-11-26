@@ -5,18 +5,18 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dc233/base-web-cli.git"
+    "url": "https://github.com/dc233/base-template-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/dc233/base-web-cli/issues"
+    "url": "https://github.com/dc233/base-template-cli/issues"
   },
-  "homepage": "https://github.com/dc233/base-web-cli#readme",
+  "homepage": "https://github.com/dc233/base-template-cli#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "base-web-cli": "./bin/www.js",
-    "bwc": "./bin/www.js"
+    "base-template-cli": "./bin/www.js",
+    "btc": "./bin/www.js"
   },
   "keywords": [],
   "author": "",
