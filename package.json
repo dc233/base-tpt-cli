@@ -1,0 +1,32 @@
+{
+  "name": "base-web-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dc233/base-web-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dc233/base-web-cli/issues"
+  },
+  "homepage": "https://github.com/dc233/base-web-cli#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "base-web-cli": "./bin/www.js",
+    "bwc": "./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  }
+}
