@@ -1,16 +1,16 @@
 {
-  "name": "base-template-cli",
-  "version": "1.0.0",
+  "name": "base-tpt-cli",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dc233/base-template-cli.git"
+    "url": "https://github.com/dc233/base-tpt-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/dc233/base-template-cli/issues"
+    "url": "https://github.com/dc233/base-tpt-cli/issues"
   },
-  "homepage": "https://github.com/dc233/base-template-cli#readme",
+  "homepage": "https://github.com/dc233/base-tpt-cli#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
