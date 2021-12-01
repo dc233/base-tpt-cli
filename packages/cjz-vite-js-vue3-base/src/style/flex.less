@@ -1,0 +1,87 @@
+// 水平排列
+
+// flex容器——元素两端排列
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items:center 
+}
+
+// flex容器——元素居中排列
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items:center  
+}
+
+// flex容器——元素靠左排列
+.flexLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center  
+}
+// flex容器——元素靠👉排列
+.flexRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center  
+}
+// flex  水平居中 垂直居中
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items:center 
+}
+
+// 水平排列
+
+// -----------------------------------------------------
+
+// 垂直排列
+
+//flex 垂直排列居中对齐
+.flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//flex 垂直排列靠左对齐
+.flexColumnLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+//flex 垂直排列两端对齐
+.flexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+// 垂直排列
+
+// flex容器子元素——平均排列
+.flexSonAlignCenter{
+    flex:1 1 auto
+}
+
+//单行文本溢出隐藏 。。。
+.texthidden{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+//多行文本溢出隐藏 。。。
+.twoLine {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}

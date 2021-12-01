@@ -18,7 +18,9 @@ module.exports = async function createProject (projectName) {
       choices: [
         { name: 'javascript', value: 'bwc-template-javascript' },
         { name: 'typescript', value: 'bwc-template-typescript' },
-        { name: 'base-template', value: 'bwc-template' }
+        { name: 'base-template', value: 'bwc-template' },
+        { name: 'vite-ts-vue3-base', value: 'cjz-vite-ts-vue3-base' },        
+        { name: 'vite-js-vue3-base', value: 'cjz-vite-js-vue3-base' },        
       ],
     },
     // {
