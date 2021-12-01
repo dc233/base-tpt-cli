@@ -60,8 +60,8 @@ module.exports = async function createProject (projectName) {
     const projectPackagePath = `${projectDir}/package.json`;
 
     copyFiles(templateDir, projectDir); // 将项目模板文件复制到创建的项目中
-    copyFiles(templateWebpackPath, projectDir); // 将webpack配置文件复制到创建的项目中
-    createPackageJson(projectName, projectDir, templateName);
+    //copyFiles(templateWebpackPath, projectDir); // 将webpack配置文件复制到创建的项目中
+    // createPackageJson(projectName, projectDir, templateName);
 
     install(projectName);
   } else {
